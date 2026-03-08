@@ -22,90 +22,108 @@
   </style>
 </head>
 <body>
-<!-- FONT -->
-<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&display=swap" rel="stylesheet">
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Belserion Archives</title>
+  <style>
+    body {
+      background-color: #1A1612;
+      color: #1A1612;
+      font-family: Georgia, serif;
+      max-width: 700px;
+      margin: 40px auto;
+      padding: 20px;
+      line-height: 1.6;
+    }
+    h1 {
+      color: #C9A86A;
+    }
+    a {
+      color: #C9A86A;
+    }
+  </style>
+</head>
+<body>
+  <!-- HEADER -->
+<div style="
+  border: 1px solid #C9A86A;
+  padding: 30px;
+  margin-bottom: 40px;
+  background: linear-gradient(135deg, #211818, #0F1114);
+  text-align: center;
+">
+  <h1 style="margin: 0; font-size: 40px; letter-spacing: 2px;">BELSERION</h1>
+  <p style="margin-top: 10px; font-style: italic; color: #C9A86A;">
+    AI‑Assisted Narrative Design • Archive & Codex
+  </p>
+</div>
 
-<style>
-  body {
-    background-color: #1A1612; /* warm brown */
-    background-image:
-      linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
-    background-size: 40px 40px; /* subtle parchment texture */
-    color: #E8E0D8; /* softer off‑white */
-    font-family: 'Crimson Text', serif; /* Carrd‑coded fantasy serif */
-    max-width: 800px;
-    margin: 60px auto;
-    padding: 20px;
-    line-height: 1.75; /* more breathable */
-  }
+<!-- NAVIGATION -->
+<nav style="
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #C9A86A;
+  padding-bottom: 15px;
+">
+  <a href="index.html" style="color: #C9A86A; text-decoration: none;">WORLD</a>
+  <a href="timeline.html" style="color: #C9A86A; text-decoration: none;">TIMELINE</a>
+  <a href="making.html" style="color: #C9A86A; text-decoration: none;">THE MAKING</a>
+  <a href="support.html" style="color: #C9A86A; text-decoration: none;">SUPPORT</a>
+  <a href="oneshot.html" style="color: #C9A86A; text-decoration: none;">ONESHOT</a>
+</nav>
 
-  h1, h2, h3 {
-    color: #D4B47A; /* warm gold */
-    margin-top: 0;
-  }
+<!-- MAIN TEXT -->
+<h2>Welcome</h2>
+<p>
+  Belserion is the flagship project of my multi‑year exploration into AI‑assisted interactive storytelling.
+  This archive serves as the central hub for the Belserion universe and the documentation of my work as an early practitioner in AI‑assisted narrative design.
+</p>
+  <!-- TWO COLUMN SECTION -->
+<div style="display: flex; justify-content: space-between; margin-top: 50px; gap: 40px;">
 
-  a {
-    color: #D4B47A;
-    text-decoration: none;
-  }
+  <!-- LEFT COLUMN -->
+  <div style="flex: 1;">
+    <h3 style="color: #C9A86A; margin-bottom: 10px;">ISILME</h3>
+    <ul style="list-style: none; padding: 0; line-height: 1.8;">
+      <li><a href="#" style="color: #E3E3E6; text-decoration: none;">Lumari</a></li>
+      <li><a href="#" style="color: #E3E3E6; text-decoration: none;">Elves</a></li>
+      <li><a href="#" style="color: #E3E3E6; text-decoration: none;">Fall of Isilme</a></li>
+    </ul>
+  </div>
 
-  a:hover {
-    text-decoration: underline;
-  }
-
-  /* Header box */
-  .header-box {
-    border: 1px solid #D4B47A;
-    padding: 30px;
-    margin-bottom: 40px;
-    background: linear-gradient(135deg, #2A221C, #1A1612);
-    text-align: center;
-    border-radius: 8px; /* Carrd softness */
-  }
-
-  /* Navigation bar */
-  nav {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    margin-bottom: 40px;
-    border-bottom: 1px solid #D4B47A;
-    padding-bottom: 15px;
-  }
-
-  /* Two-column section */
-  .columns {
-    display: flex;
-    justify-content: space-between;
-    gap: 40px;
-    margin-top: 50px;
-  }
-
-  .column ul {
-    list-style: none;
-    padding: 0;
-    line-height: 1.8;
-  }
-
-  /* Centered codex block */
-  .codex-box {
-    border: 1px solid #D4B47A;
-    padding: 25px;
-    margin: 50px 0;
-    background: #151515;
-    border-radius: 6px;
-  }
-
-  /* Footer */
-  footer {
-    margin-top: 60px;
-    padding-top: 20px;
-    border-top: 1px solid #D4B47A;
-    text-align: center;
-    font-size: 14px;
-    color: #A08F7A;
-  }
-  <body/>
-</style>
+  <!-- RIGHT COLUMN -->
+  <div style="flex: 1;">
+    <h3 style="color: #C9A86A; margin-bottom: 10px;">BELSERION</h3>
+    <ul style="list-style: none; padding: 0; line-height: 1.8;">
+      <li><a href="#" style="color: #E3E3E6; text-decoration: none;">Empire</a></li>
+      <li><a href="#" style="color: #E3E3E6; text-decoration: none;">Lore</a></li>
+      <li><a href="#" style="color: #E3E3E6; text-decoration: none;">Religion</a></li>
+    </ul>
+  </div>
+  <div style="
+  border: 1px solid #C9A86A;
+  padding: 25px;
+  margin: 50px 0;
+  background: #151515;
+">
+  <p style="margin: 0;">
+    This archive documents the Belserion universe and the development of my AI‑assisted narrative design practice.  
+    It serves as both a creative codex and a research record of multi‑branch storytelling, emotional logic, and worldbuilding methodology.
+  </p>
+</div>
+</body>
+  <footer style="
+  margin-top: 60px;
+  padding-top: 20px;
+  border-top: 1px solid #C9A86A;
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+">
+  © Belserion Archives — Created by Mari
+</footer>
 </html>
